@@ -19,5 +19,6 @@ locals {
 
 module "databricks-workspace" {
   source = "./modules/databricks-workspace" 
+  prefix = var.prefix
 }
 
