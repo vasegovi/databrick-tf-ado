@@ -6,7 +6,7 @@ terraform {
     }  
   } 
   backend "azurerm" {
-    resource_group_name  = "demodb-rg"
+    resource_group_name  = "myTFResourceGroup"
     storage_account_name = "demodbtfstate"
     container_name       = "tfstate"
     key                  = "dev.terraform.tfstate"
